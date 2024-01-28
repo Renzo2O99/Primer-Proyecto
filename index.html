@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ¡Aprendiendo HTML! </title>
+    <title> Ecommerce - Home </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
-    <header> <!--! Cabecera de la página -->
-        <H1>Tienda de Muebles</H1>
+    <header class="nombre_sitio"> <!--! Cabecera de la página -->
+        <H1>Tienda <span> Muebles </span></H1>
     </header>
 
-    <nav> <!--! Barra de Navegación entre diferentes servicios. -->
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galería</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="contenedor_navegacion">
+        <nav class="navegacion_principal contenedor"> <!--! Barra de Navegación entre diferentes servicios. -->
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <div class="hero"></div>
+
 
     <section> <!--! Sección con las diferentes categorías de productos. -->
-        <h2>Categorías de Productos</h2>
+        <h2>Categorías de <span> Productos </span></h2>
 
         <div>
             <img src="img/categoria1.jpg" alt="Imagen Categoría 1">
@@ -38,11 +45,12 @@
             <a href="#">Cocina</a>
         </div>
     
-    <section> <!--! Sección informativa del producto.-->
+    <section class="sobre_nosotros"> <!--! Sección informativa del producto.-->
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestias distinctio itaque similique expedita. Quibusdam quae fugiat minima aliquam, sit atque maiores asperiores id nisi dolore saepe laboriosam, perspiciatis magnam?</p>
         </div>
+    </section>c
 
 
     <main> <!--! Sección principal de la página. -->
@@ -144,7 +152,7 @@
         <div>
             <h3>Sobre Nosotros</h3>
             
-            <nav>
+            <nav class="navegacion">
                 <a href="#">Nuestra Historia</a>
                 <a href="#">Misión, Visión y Valores</a>
                 <a href="#">Carreras</a>

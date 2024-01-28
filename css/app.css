@@ -1,0 +1,62 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Selectores Globales */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    /* También se puede agregar así:
+    margin: 0 auto; */
+}
+
+/* Header y Navegación */
+
+.nombre_sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nombre_sitio span {
+    color: #037bc0;
+}
+
+.contenedor_navegacion {
+    border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px;
+    /* Se puede simplificar así:
+    border-top: 1px solid #e1e1e1; */
+
+}
+.navegacion_principal {
+    padding: 20px 0;
+
+    /*padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;*/
+/* Se puede simplificar así:
+    padding: 20px 0px 20px 0px */
+}
+
+.hero {
+    background-image: url("../img/principal.jpg");
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+}
